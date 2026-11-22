@@ -35,7 +35,7 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(gpio_button gpio_button_register_programming.c)
+add_executable(gpio_button gpio_timer_interrupt.c)
 
 pico_set_program_name(gpio_button "gpio_button")
 pico_set_program_version(gpio_button "0.1")
